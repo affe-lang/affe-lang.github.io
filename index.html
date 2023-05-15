@@ -7,10 +7,10 @@
     <link href="src/meta.css" rel="stylesheet" />
     <link href="src/navbar.css" rel="stylesheet" />
     <link href="src/maincontent.css" rel="stylesheet" />
+    <link href="src/footer.css" rel="stylesheet" />
     <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
-    <link href="/affe.png" rel="icon" />
-
+    <link href="https://cdn.jsdelivr.net/gh/affe-lang/assets@master/affe.png" rel="icon" />
     <title>affe</title>
   </head>
   <body>
@@ -20,19 +20,31 @@
           <img src="https://cdn.jsdelivr.net/gh/affe-lang/assets@master/affe-inverse.png" id="logo"/>
           <ul id="nav">
             <li><a href="#about">about</a></li>
-            <li><a href="https://github.com/affe-lang/affe" target="blank">github</a></li>
+            <li><a href="https://github.com/affe-lang/affe" target="_blank">github</a></li>
           </ul>
         </nav>
       </div>
-      <div id="landing">
-        <img src="https://cdn.jsdelivr.net/gh/affe-lang/assets@master/fe%20heading.png" id="banner-img"><br/>
-        <span id="landingtext">
-          affe (ˈafə) is a high-level language with emphasis on concise, readable code, based on <a href="https://monkeylang.org/">Monkey</a> by Thorsten Ball.</span><br/>
-        <span id="down">⌄</span>
+      <div id="maincontent">
+        <div id="landing">
+          <img src="https://cdn.jsdelivr.net/gh/affe-lang/assets@master/fe%20heading.png" id="banner-img"><br/>
+          <span id="landingtext">
+            affe (ˈafə) is a high-level language with emphasis on concise, readable code, based on <a href="https://monkeylang.org/">Monkey</a> by Thorsten Ball.</span><br/>
+          <span id="down">⌄</span>
+        </div>
+        <div id="about">
+          <div class="inner">
+            <h1>what is affe?</h1>
+            <p>affe is a derivative of the <a href="https://monkeylang.org" target="_blank" class="light">Monkey programming language</a>, by Thorsten Ball. It's core implements are true to the book, but it implements a couple of other features, like:</p>
+            <ul id="inline">
+              <li>Float types</li>
+              <li>An expanded standard library</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div id="about">
-        <h1>what is affe?</h1>
-      </div>
+      <footer>
+        Copyright © 2023 Affe | <a href="https://github.com/affe-lang" class="light">GitHub</a>
+      </footer>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
   </body>

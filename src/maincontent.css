@@ -22,3 +22,43 @@
 	display: inline-block;
 	animation: float 2s ease-in-out infinite;
 }
+
+#maincontent {
+	text-align: center;
+}
+
+.inner {
+	width: 60%;
+	margin: auto;
+}
+
+#about {
+	background: var(--purp);
+	color: white;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+p {
+	font-size: 150%;
+}
+
+a {
+	color: var(--d-purp);
+}
+
+a.light {
+	color: #f0f0f0;
+}
+
+#inline {
+	display: inline-block;
+	text-align: left;
+	font-size: 150%;
+}
+
+#getstarted {
+	color: var(--black);
+}

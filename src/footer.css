@@ -1,0 +1,7 @@
+footer {
+	font-size: 120%;
+	padding: 10px;
+	text-align: center;
+	background: var(--purp);
+	color: white;
+}
