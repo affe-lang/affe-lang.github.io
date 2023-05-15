@@ -1,0 +1,24 @@
+#landing {
+	text-align: center;
+	font-size: 170%;
+	color: var(--black);
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+	height: 100vh;
+}
+
+#banner-img {
+	height: 200px;
+}
+
+#landingtext {
+	width: 20%;
+}
+
+#down {
+	font-size: 200%;
+	margin-top: 20vh;
+	display: inline-block;
+	animation: float 2s ease-in-out infinite;
+}
